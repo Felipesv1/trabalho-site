@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+width: 100%;
+display: flex;
+justify-content:space-between ;
+align-items: center;
+}
+
+nav{
+    width: 30%;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+ul li {
+
+    display: flex;
+    margin-left:10px;
+
+}
+
+.logo{
+    width:300px ;
+    margin-left: 20px;
+   margin-top: 10px;
+}
+
+section .foto{
+  width: 80%;
+  align-self: center;
+}
+
+ .imagem {
+
+    display: flex;
+    justify-content:center ;
+  margin-top: 10px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.about h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*QUEM SOMOS.PAGINA---------------------------------------*/
+
+.box-quem{
+margin: 2vw;
+}
+
+.box-quem h1{
+    margin-bottom: 20px;
+}
+
+div{
+    margin: 2vw;
+}
+ 
+.menu{
+    display: none;
+}
+
+/*Pagina.Assine---------------------------------------------*/
+
+
+
+
+.assine{
+    margin: 2vw;
+    background: #f7f7f7;
+ padding:20px ;
+}
+
+.assine h1{
+    font-family: sans-serif;
+}
+
+.assine label{
+    font-family: sans-serif;
+}
+
+.assine input{
+    width: 100%;
+    border:1px solid #ddd;
+    border-radius: 4px;
+    padding:.5rem;
+    font-size: .9rem;
+    background: #f7f7f7;
+}
+
+
+form{
+    background: white;
+    flex-direction: column;
+  width: 200px; 
+  margin:20px auto;
+  border-radius: 4px;
+  max-width: 200px;
+  box-shadow: 0 1px 1px rgba(0,0,0, .1);
+}
+
+button{
+    padding:10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: none;
+}
+
+footer{
+    margin-top:9%
+}
+
+/*Aqui começa o media-------------------------------*/
+
+@media(max-width:800px){
+    ul{
+        display: none;
+    }
+
+.box-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+    .menu{
+        display: block;
+        width: 50px;
+    }
+
+    .logo{
+        width:200px ;
+        margin-left: 20px;
+       margin-top: 10px;
+    }
+}
