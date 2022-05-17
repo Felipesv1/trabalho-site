@@ -183,12 +183,7 @@ footer{
         display: block;
     }
 
-    ul li{
-
-        
-        margin-right: px;
 }
- }
 @media(max-width:445px){
     ul li{
         display:block ;
