@@ -148,8 +148,16 @@ footer{
 /*Aqui começa o media-------------------------------*/
 
 @media(max-width:800px){
-    ul{
-        display: none;
+    ul {
+        display:flex ;
+        
+        margin-right: 50px;
+    }
+
+    ul li{
+        display:flex ;
+        
+        margin-right: 50px;
     }
 
 .box-menu{
@@ -168,4 +176,38 @@ footer{
         margin-left: 20px;
        margin-top: 10px;
     }
+}
+
+@media(max-width:395px){
+    ul {
+        display: block;
+    }
+
+    ul li{
+
+        
+        margin-right: px;
+}
+ }
+@media(max-width:445px){
+    ul li{
+        display:block ;
+        
+        margin-right: 10px;
+    }
+    ul {
+        display:block ;
+        
+        margin-right: 40px;
+    }
+
+     }
+
+    @media(max-width:320px){
+        ul {
+            display:block ;
+            
+        }
+    
+    
 }
